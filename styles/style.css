@@ -296,6 +296,11 @@ h4
 
     text-align: center;
 }
+.fa-instagram span a
+{
+    color: white;
+    text-decoration: none;
+}
 .scrollup
 {
     position: fixed;
