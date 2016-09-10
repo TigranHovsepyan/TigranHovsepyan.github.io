@@ -111,7 +111,7 @@ h4
     color: #c5c5c5;
     line-height: 0;
 }
-.fa-chevron-down, .fa-vk
+a
 {
     text-decoration: none;
 }
@@ -120,7 +120,6 @@ h4
     position: absolute;
     top: 73%;
     left: 49.4%;
-    text-decoration: none;
 
     -moz-transition: 1s;
      -ms-transition: 1s;
