@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://allfont.ru/allfont.css?fonts=roboto-thin);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100');
 
 html,
 body,
@@ -297,7 +297,7 @@ h4
 }
 .contacts-fa span
 {
-    font-family: 'Roboto Thin';
+    font-family: 'Roboto';
     font-size: .8em;
 
     text-align: center;
