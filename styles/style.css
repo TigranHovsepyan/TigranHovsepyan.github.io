@@ -149,16 +149,20 @@ a
     top: 95%;
     left: 5%;
 
+ -webkit-transition: 1s;
     -moz-transition: 1s;
      -ms-transition: 1s;
       -o-transition: 1s;
          transition: 1s;
-    -webkit-transform: 1s;
 
     color: #f8b55e;
 }
 .fa-vk:hover
 {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+     -ms-transition: 1s;
+      -o-transition: 1s;
     transition: 1s;
 
     color: #fff;
