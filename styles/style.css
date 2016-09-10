@@ -111,6 +111,10 @@ h4
     color: #c5c5c5;
     line-height: 0;
 }
+.fa
+{
+    text-decoration: none;
+}
 .fa-chevron-down
 {
     position: absolute;
@@ -127,12 +131,13 @@ h4
 }
 .fa-chevron-down:hover
 {
+    -webkit-transition: 1s;
     -moz-transition: 1s;
      -ms-transition: 1s;
       -o-transition: 1s;
          transition: 1s;
+         
     -webkit-transform: translateY(10px); /* Для Safari, Chrome, iOS */
-    -webkit-transform: 1s;
        -moz-transform: translateY(10px); /* Для Firefox */
         -ms-transform: translateY(10px); /* Для IE */
          -o-transform: translateY(10px); /* Для Opera */
