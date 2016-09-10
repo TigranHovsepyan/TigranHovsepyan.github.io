@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://allfont.ru/allfont.css?fonts=roboto-thin);
+
 html,
 body,
 .wrap
@@ -295,7 +297,7 @@ h4
 }
 .contacts-fa span
 {
-    font-family: 'Segoe UI';
+    font-family: 'Roboto Thin';
     font-size: .8em;
 
     text-align: center;
