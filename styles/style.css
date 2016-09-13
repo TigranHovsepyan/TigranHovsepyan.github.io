@@ -1,16 +1,15 @@
 @font-face
 {
     font-family: 'Merriweather';
-    src: url(../fonts/Merriweather.ttf);
-    src: url(../fonts/Merriweather.svg);
+    src: url(fonts/Merriweather.ttf);
+    src: url(fonts/Merriweather.svg);
 }
 @font-face
 {
     font-family: 'Open Sans';
-    src: url(../fonts/OpenSans.ttf);
-    src: url(../fonts/OpenSans.svg);
+    src: url(fonts/OpenSans.ttf);
+    src: url(fonts/OpenSans.svg);
 }
-
 html,
 body,
 .wrap
