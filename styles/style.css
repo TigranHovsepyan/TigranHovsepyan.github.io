@@ -1,15 +1,3 @@
-@font-face
-{
-    font-family: 'Merriweather';
-    src: url(tigranhovsepyan.github.io/fonts/Merriweather.ttf);
-    src: url(tigranhovsepyan.github.io/fonts/Merriweather.svg);
-}
-@font-face
-{
-    font-family: 'Open Sans';
-    src: url(tigranhovsepyan.github.io/fonts/OpenSans.ttf);
-    src: url(tigranhovsepyan.github.io/fonts/OpenSans.svg);
-}
 html,
 body,
 .wrap
