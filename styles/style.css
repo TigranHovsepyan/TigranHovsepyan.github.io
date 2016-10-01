@@ -1,0 +1,615 @@
+html,
+body,
+.wrap
+{
+    height: 100%;
+    margin: 0 auto;
+    margin-top: -9px;
+}
+
+div
+{
+    -webkit-box-shadow: 0 3px 10px 0 rgba(24,24,24,1);
+       -moz-box-shadow: 0 3px 10px 0 rgba(24,24,24,1);
+            box-shadow: 0 3px 10px 0 rgba(24,24,24,1);
+}
+.clr:after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+.main-signature
+{
+    font-family: 'Merriweather';
+
+    width: 50%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+}
+h3 span
+{
+    font-family: 'Merriweather';
+
+    text-align: center;
+
+    color: #fff;
+}
+h4
+{
+    font-family: 'Open Sans', serif;
+
+    margin: 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #c3904f;
+}
+.first-block
+{
+    width: 100%;
+    height: 85%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background: url(../background.jpg);
+    background-size: 100% 100%;
+}
+.first-block_content1
+{
+    margin: 0 auto;
+
+    width: 50%;
+    height: 200px;
+
+    border: 1px solid #5c5c5c;
+}
+.hello-text
+{
+    font-family: 'Merriweather';
+    font-size: 2em;
+
+    text-align: center;
+
+    color: #fff;
+}
+.hello-text span
+{
+    color: #f7ac53;
+}
+.block-menu
+{
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: none;
+    line-height: 120%;
+}
+.chevroni
+{
+    margin-left: 50.7%;
+}
+.services-menu
+{
+    margin-right: 45px;
+    text-align: center;
+}
+.services-menu li
+{
+    display: inline-block;
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border-right: 2px solid #8c693f;
+}
+.services-menu li:nth-child(5)
+{
+    border: none;
+}
+.services-menu li p
+{
+    font-family: 'Open Sans';
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #c5c5c5;
+    line-height: 0;
+}
+a
+{
+    text-decoration: none;
+}
+.fa-chevron-down
+{
+    text-decoration: none;
+    -moz-transition: 1s;
+     -ms-transition: 1s;
+      -o-transition: 1s;
+         transition: 1s;
+    -webkit-transform: 1s;
+
+    color: #d7984c;
+}
+.fa-chevron-down:hover
+{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+     -ms-transition: 1s;
+      -o-transition: 1s;
+         transition: 1s;
+         outline: none;
+    -webkit-transform: translateY(10px); /* Для Safari, Chrome, iOS */
+       -moz-transform: translateY(10px); /* Для Firefox */
+        -ms-transform: translateY(10px); /* Для IE */
+         -o-transform: translateY(10px); /* Для Opera */
+            transform: translateY(10px);
+}
+.fa-vk-main
+{
+    position: absolute;
+    top: 93%;
+    left: 5%;
+
+ -webkit-transition: 1s;
+    -moz-transition: 1s;
+     -ms-transition: 1s;
+      -o-transition: 1s;
+         transition: 1s;
+
+    color: #f8b55e;
+}
+.fa-vk:hover
+{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+     -ms-transition: 1s;
+      -o-transition: 1s;
+    transition: 1s;
+
+    color: #fff;
+}
+.fa-area-chart,
+.fa-code,
+.fa-shield
+{
+    color: #feb960;
+}
+.fa span
+{
+    padding-left: 5px;
+    margin-left: 10px;
+    color: #fff;
+}
+.main-hr
+{
+    width: 1px;
+    height: 150px;
+
+    color: #feb960;
+    border: none;
+    background-color: #feb960;
+}
+.second-block
+{
+    width: 100%;
+    margin-top: -9px;
+    padding-bottom: 30px;
+    background: #202020;
+}
+.second-block_list
+{
+    width: 100%;
+    height: 105%;
+
+    background: #202020;
+}
+.second-block_strategy,
+.second-block_practice,
+.second-block_justice
+{
+    float: left;
+
+    width: 28%;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background: #202020;
+}
+.second-block_text
+{
+    font-family: 'Open Sans';
+    font-size: 1em;
+    color: #929292;
+}
+.second-block_text span
+{
+    color: #b98a4c;
+}
+.second-block_text a
+{
+    color: #fff;
+}
+.second-block_text2
+{
+    font-family: 'Open Sans';
+
+    color: gold;
+}
+.third-block
+{
+    width: 100%;
+    margin-top: -27px;
+    padding-bottom: 35px;
+    background: #181818;
+}
+.four-block
+{
+    width: 100%;
+    margin-top: -8px;
+    padding-bottom: 25px;
+    background: #202020;
+}
+.skills
+{
+    width: 50%;
+    margin: 0 auto;
+
+    -webkit-box-shadow: 2px 9px 10px 0 rgba(32,32,32,1);
+       -moz-box-shadow: 2px 9px 10px 0 rgba(32,32,32,1);
+            box-shadow: 2px 9px 10px 0 rgba(32,32,32,1);
+}
+.skills td:nth-child(2)
+{
+    text-align: center;
+}
+.skills td:nth-child(1)
+{
+    width: 25%;
+}
+.fifth-block
+{
+    width: 100%;
+    height: 100%;
+    margin-top: -1%;
+    background: #181818;
+}
+.contacts
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    -webkit-box-shadow: 5px 10px 20px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 10px 20px 5px rgba(0,0,0,0.75);
+            box-shadow: 5px 10px 20px 5px rgba(0,0,0,0.75);
+}
+.contacts-fa
+{
+    margin-left: 10%;
+
+    color: #f8b55e;
+}
+.contacts-fa:hover
+{
+    -moz-transition: .5s;
+     -ms-transition: .5;
+      -o-transition: .5s;
+         transition: .5s;
+    -webkit-transform: .5s;
+
+    color: #fff;
+}
+.contacts-fa span
+{
+    font-family: 'Roboto';
+    font-size: .8em;
+
+    text-align: center;
+}
+.fa-instagram span a
+{
+    color: white;
+    text-decoration: none;
+}
+.scrollup
+{
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+
+    display: block;
+
+    -moz-transition: .7s;
+     -ms-transition: .7;
+      -o-transition: .7s;
+         transition: .7s;
+    -webkit-transform: .7s;
+
+    color: #feb960;
+}
+.scrollup:hover
+{
+    -moz-transition: .7s;
+     -ms-transition: .7;
+      -o-transition: .7s;
+         transition: .7s;
+    -webkit-transform: .7s;
+
+    color: #fff;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1230px)
+{
+    .fa-2x span
+    {
+        font-size: 0.75em;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy
+    {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .third-block
+    {
+        margin-top: -2.7%;
+    }
+    .hello-text
+    {
+        font-size: 1.75em;
+    }
+    .fifth-block
+    {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 664px)
+{
+    figure.effect-layla figcaption::after
+    {
+        top: 35px;
+        right: 65px;
+        bottom: 10px;
+        left: 65px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 623px)
+{
+    .chevroni
+    {
+        margin-left: 49.3%;
+    }
+}
+@media screen and (min-width: 624px) and (max-width: 670px)
+{
+    .chevroni
+    {
+        margin-left: 50%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 959px)
+{
+    .main-signature
+    {
+        font-size: 1.75em;
+    }
+    .second-block_list
+    {
+        padding: 30px 0px;
+        box-shadow: none;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy
+    {
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy p
+    {
+        padding-bottom: 20px;
+        font-size: 2em;
+    }
+    .skills
+    {
+        width: 60%;
+    }
+    .skills p
+    {
+        font-size: 2em;
+    }
+    .hello-text
+    {
+        font-size: 1.5em;
+    }
+    .services-menu li
+    {
+        border: none;
+        padding-right: 0;
+    }
+    .fifth-block
+    {
+        margin-top: -8px;
+        height: 125%;
+    }
+}
+
+/* For Chevroni */
+@media screen and (min-width: 480px) and (max-width: 500px)
+{
+    .chevroni
+    {
+        margin-left: 47.7%;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 530px)
+{
+    .chevroni
+    {
+        margin-left: 48%;
+    }
+}
+
+@media screen and (min-width: 531px) and (max-width: 560px)
+{
+    .chevroni
+    {
+        margin-left: 48.3%
+    }
+}
+@media screen and (min-width: 561px) and (max-width: 599px)
+{
+    .chevroni
+    {
+        margin-left: 48.2%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 599px)
+{
+    .hello-text
+    {
+        font-size: 1.35em;
+    }
+    .services-menu li
+    {
+        border: none;
+        display: block;
+        margin-bottom: 1px;
+        padding: 1px;
+    }
+    .first-block
+    {
+        height: 100%;
+    }
+    .main-signature
+    {
+        font-size: 1.2em;
+    }
+    h3
+    {
+        text-align: center;
+        font-size: 0.85em;
+        padding: 10px 0px 0px 5px;
+    }
+    h4
+    {
+        font-size: 0.9em;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy
+    {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy p
+    {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .main-hr
+    {
+        height: 125px;
+    }
+    .fifth-block
+    {
+        margin-top: -8px;
+    }
+    .contacts-fa span
+    {
+        font-size: .65em;
+    }
+    .skills
+    {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 479px)
+{
+    .first-block_content1
+    {
+        width: 60%;
+        height: 150px;
+    }
+    .hello-text
+    {
+        font-size: 1.2em;
+    }
+    .block-menu
+    {
+        margin: 0 auto;
+        width: 100%;
+        box-shadow: none;
+    }
+    .services-menu
+    {
+        margin-right: 35px;
+        text-align: center;
+    }
+    .services-menu li
+    {
+        border: none;
+        display: block;
+        margin-bottom: 1px;
+        padding: 1px;
+    }
+    .services-menu li p
+    {
+        font-size: .8em;
+    }
+    .first-block
+    {
+        height: 100%;
+    }
+    .main-signature
+    {
+        font-size: 1em;
+    }
+    h3
+    {
+        text-align: center;
+        font-size: 0.75em;
+        padding: 10px 0px 0px 5px;
+    }
+    h4
+    {
+        font-size: 0.8em;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy
+    {
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .second-block_practice, .second-block_justice, .second-block_strategy p
+    {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: .9em;
+    }
+    .main-hr
+    {
+        height: 125px;
+    }
+    .fifth-block
+    {
+        margin-top: -8px;
+    }
+    .contacts-fa span
+    {
+        font-size: .65em;
+    }
+    .skills
+    {
+        width: 75%;
+    }
+    .chevroni
+    {
+        margin-left: 48.7%;
+    }
+}
