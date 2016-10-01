@@ -6,7 +6,16 @@ body,
     margin: 0 auto;
     margin-top: -9px;
 }
-
+@font-face { 
+  font-family: 'Merriweather'; 
+  src: url('../fonts/Merriweather.svg') format('svg'), 
+       url('../fonts/Merriweather.ttf')  format('truetype'); 
+}
+@font-face { 
+  font-family: 'Open Sans'; 
+  src: url('../fonts/OpenSans.svg') format('svg'), 
+       url('../fonts/OpenSans.ttf')  format('truetype'); 
+}
 div
 {
     -webkit-box-shadow: 0 3px 10px 0 rgba(24,24,24,1);
