@@ -61,7 +61,7 @@ h4
 .first-block_content1
 {
     margin: 0 auto;
-
+    box-sizing: border-box;
     width: 50%;
     height: 200px;
 
@@ -71,10 +71,9 @@ h4
 {
     font-family: 'Merriweather';
     font-size: 2em;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-
     color: #fff;
 }
 .hello-text span
