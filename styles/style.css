@@ -351,7 +351,14 @@ a
 
     color: #fff;
 }
-
+@media screen and (min-width: 1231px) and (max-width: 1255px)
+    {
+        .second-block_practice, .second-block_justice, .second-block_strategy
+        {
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+    }
 @media screen and (min-width: 960px) and (max-width: 1230px)
 {
     .fa-2x span
