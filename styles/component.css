@@ -102,16 +102,15 @@
 figure.effect-layla {
 	background: #202020;
 }
-
+figure.effect-layla:hover figure.effect-layla img {
+	filter: initial;
+	transition: .5s;
+}
 figure.effect-layla img {
 	min-width: 100%;
 	height: -webkit-calc(100% + 40px);
 	height: calc(100% + 40px);
 	filter: grayscale(1);
-	transition: .5s;
-}
-figure.effect-layla img:hover {
-	filter: initial;
 	transition: .5s;
 }
 figure.effect-layla figcaption {
