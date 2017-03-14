@@ -30,8 +30,13 @@
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+	filter: grayscale(1);
+	transition: 1.5s;
 }
-
+.grid figure:hover {
+	filter: grayscale(0);
+	transition: 1.5s;
+}
 .grid figure img {
 	position: relative;
 	display: block;
@@ -102,15 +107,10 @@
 figure.effect-layla {
 	background: #202020;
 }
-figure.effect-layla:hover figure.effect-layla img {
-	filter: initial;
-	transition: .5s;
-}
 figure.effect-layla img {
 	min-width: 100%;
 	height: -webkit-calc(100% + 40px);
 	height: calc(100% + 40px);
-	filter: grayscale(1);
 	transition: .5s;
 }
 figure.effect-layla figcaption {
@@ -126,32 +126,30 @@ figure.effect-layla figcaption::after {
 
 figure.effect-layla figcaption::before {
 	top: 50px;
-	right: 30px;
-	bottom: 50px;
-	left: 30px;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-	-webkit-transform-origin: 0 0;
-	transform-origin: 0 0;
+    right: 30px;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 110%;
 }
 
 figure.effect-layla figcaption::after {
 	top: 30px;
-	right: 60px;
-	bottom: 30px;
-	left: 35px;
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-	-webkit-transform-origin: 100% 0;
-	transform-origin: 100% 0;
+    right: 60px;
+    bottom: 30px;
+    left: 50px;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
 }
 
 figure.effect-layla h2 {
-	padding-top: 26%;
+	padding-top: 20%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
